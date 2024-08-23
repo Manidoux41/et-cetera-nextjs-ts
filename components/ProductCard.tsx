@@ -24,8 +24,8 @@ const ProductCard: React.FC<ProductCardProps> = () => {
           )} */}
         </div>
         <div className="p-4">
-          <h3 className="text-xl font-semibold mb-2">Nom du Produit{/* {product.name} */}</h3>
-          <p className="text-gray-600 mb-4">Description du produit{/* {product.description} */}</p>
+          <h3 className="text-xl font-semibold mb-2">Nom des Produits{/* {product.name} */}</h3>
+          <p className="text-gray-600 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum vitae sed consequatur sint veritatis nesciunt?{/* {product.description} */}</p>
           <div className="flex justify-between items-center">
             <span className="text-lg font-bold text-primary">11,00{/* {product.price.toFixed(2)} */} €</span>
             <button className="bg-accent text-white px-4 py-2 rounded hover:bg-secondary transition duration-300">
