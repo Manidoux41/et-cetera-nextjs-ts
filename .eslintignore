@@ -1,0 +1,9 @@
+# Ignore les fichiers de build
+.next
+out
+
+# Ignore les modules node
+node_modules
+
+# Ignore les fichiers de configuration
+*.config.js
