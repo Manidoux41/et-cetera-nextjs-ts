@@ -31,12 +31,12 @@ const Carousel: React.FC<CarouselProps> = () => {
             index === currentIndex ? 'opacity-100' : 'opacity-0' */
             /* }`} */
         >
-          <Image
-        src="/images/carousel-first.jpg"
-        alt="Landscape picture"
-        fill
-        style={{ objectFit: 'cover', height: '100%', width: '100%' }}
-      />
+            <Image
+                src="/images/carousel-first.jpg"
+                alt="Landscape picture"
+                fill
+                className="object-cover w-full h-full"
+            />
           <div className="absolute inset-0 bg-black bg-opacity-10 flex items-center justify-center">
             <div className="text-center text-white">
               <h2 className="text-4xl font-bold mb-2">Titre{/* {item.title} */}</h2>
